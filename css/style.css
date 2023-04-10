@@ -67,11 +67,13 @@ header .logo{
 .main_banner{
     background: #F0EFEB;
     position: relative;
+    padding: 90px 140px;
+    min-height: 554px;
 
 }
 .main_banner .in_love{
-    padding: 90px 188px;
-    max-width: 870px;
+
+    max-width: 1088px;
     box-sizing: border-box;
 
 
@@ -121,7 +123,7 @@ header .logo{
 }
 .main_banner .in_love img{
     position: absolute;
-    right: 35px;
+    right: -10px;
     top: 9px;
     width: 599px;
     height: 521px;
