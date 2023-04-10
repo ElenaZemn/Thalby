@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header .logo{
+    position: absolute;
+    left:calc(50% - 40px);
+    top:16px;
+    bottom: 15px;
+}
+
+
+.container {
+    max-width: 1064px;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.container .shop {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.container .shop li{
+    margin-right: 28px;
+
+}
+.container .shop li a{
+    text-decoration: none;
+}
+
+.container .shop{
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #1C1B1B;
+}
+.container .social {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+.container .social li{
+    margin-left: 27px;
+
+}
+.container .social li a{
+    text-decoration: none;
+    list-style: none;
+    height: 20px;
+    width: 20px;
+}
+.container .social li a img{
+    height: 20px;
+    width: 20px;
+}
+.main_banner{
+    background: #F0EFEB;
+    position: relative;
+
+}
+.main_banner .in_love{
+    padding: 90px 188px;
+    max-width: 870px;
+    box-sizing: border-box;
+
+
+}
+.main_banner .in_love h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 4px;
+
+}
+.main_banner .in_love h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.main_banner .in_love p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+
+}
+.main_banner .in_love a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 7px 23px;
+    display: inline-flex;
+}
+.main_banner .in_love img{
+    position: absolute;
+    right: 35px;
+    top: 9px;
+    width: 599px;
+    height: 521px;
+}
+.our_guides{
+    background: #FFFFFF;
+
+}
+.our_guides .amazon{
+    max-width: 1064px;
+    padding: 60px 0 88px;
+    margin: auto;
+    text-align: center;
+}
+.our_guides .amazon h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+
+}
+.our_guides .amazon p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+}
+.our_guides .amazon p:nth-child(2){
+    margin-bottom: 88px;
+}
+
+
+
+
+
+
+
+
