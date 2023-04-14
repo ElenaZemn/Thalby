@@ -32,6 +32,7 @@ header .logo{
 }
 .container .shop li a{
     text-decoration: none;
+    color: black;
 }
 
 .container .shop{
@@ -42,7 +43,7 @@ header .logo{
     font-size: 16px;
     line-height: 26px;
     text-decoration: none;
-    color: #1C1B1B;
+
 }
 .container .social {
     display: flex;
@@ -59,6 +60,7 @@ header .logo{
     list-style: none;
     height: 20px;
     width: 20px;
+
 }
 .container .social li a img{
     height: 20px;
@@ -67,15 +69,15 @@ header .logo{
 .main_banner{
     background: #F0EFEB;
     position: relative;
-    padding: 90px 140px;
+    padding: 90px 0;
     min-height: 554px;
 
 }
 .main_banner .in_love{
-
+    margin: auto;
     max-width: 1088px;
     box-sizing: border-box;
-
+    position: relative;
 
 }
 .main_banner .in_love h1{
@@ -123,8 +125,8 @@ header .logo{
 }
 .main_banner .in_love img{
     position: absolute;
-    right: -10px;
-    top: 9px;
+    right: -148px;
+    top: -72px;
     width: 599px;
     height: 521px;
 }
