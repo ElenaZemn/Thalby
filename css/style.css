@@ -75,12 +75,13 @@ header .logo{
 }
 .main_banner .in_love{
     margin: auto;
-    max-width: 1088px;
+    max-width: 1064px;
     box-sizing: border-box;
     position: relative;
 
 }
 .main_banner .in_love h1{
+    max-width: 534px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -91,6 +92,7 @@ header .logo{
 
 }
 .main_banner .in_love h2{
+    max-width: 534px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -100,6 +102,7 @@ header .logo{
     margin-bottom: 42px;
 }
 .main_banner .in_love p{
+    max-width: 534px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -125,8 +128,8 @@ header .logo{
 }
 .main_banner .in_love img{
     position: absolute;
-    right: -148px;
-    top: -72px;
+    right: -129px;
+    top: -82px;
     width: 599px;
     height: 521px;
 }
