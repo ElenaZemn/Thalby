@@ -104,5 +104,14 @@
         margin: auto;
         text-align: center;
     }
+    .owl-stage-outer{
+        width: 700px;
+    }
+    .our_guides .best_sellers{
+        width: 700px;
+    }
+    .owl-dots{
+        margin: auto;
+    }
 
 }
