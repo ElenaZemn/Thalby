@@ -13,6 +13,7 @@ header .logo{
 
 .container {
     max-width: 1064px;
+    position: relative;
     margin: auto;
     padding: 15px 0;
     display: flex;
@@ -21,28 +22,26 @@ header .logo{
     box-sizing: border-box;
 
 }
-.container .shop {
+.container .nav-links {
     display: flex;
     text-decoration: none;
     list-style: none;
 }
-.container .shop li{
+.container .nav-links a{
     margin-right: 28px;
-
-}
-.container .shop li a{
     text-decoration: none;
     color: black;
-}
 
-.container .shop{
+
+
+
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    text-decoration: none;
+
 
 }
 .container .social {
@@ -179,8 +178,6 @@ header .logo{
 }
 .our_guides .best_sellers {
     width: 1124px;
-    display: flex;
-    justify-content: center;
     margin: auto;
 }
 .our_guides .best_sellers article {
@@ -199,6 +196,7 @@ header .logo{
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
+    margin-bottom: 20px;
 
 }
 .our_guides .best_sellers h5{
@@ -229,15 +227,17 @@ header .logo{
 .owl-stage-outer{
     width: 1124px;
 }
-.owl-dots .owl-dot span{
-    display: inline-block;
+.owl-dots{
+    text-align: center;
 }
+
 .owl-dots .owl-dot span{
     width: 10px;
     height: 10px;
     display: inline-block;
     background-color: darkviolet;
     border-radius: 50%;
+    margin: 5px;
 
 }
 .owl-dots .owl-dot.active span{
