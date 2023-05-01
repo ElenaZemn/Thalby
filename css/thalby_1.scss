@@ -83,7 +83,7 @@ $main_font: 'Roboto', sans-serif;
 
       h1 {
         max-width: 534px;
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
@@ -94,7 +94,7 @@ $main_font: 'Roboto', sans-serif;
 
       h2 {
         max-width: 534px;
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
@@ -105,7 +105,7 @@ $main_font: 'Roboto', sans-serif;
 
       p {
         max-width: 534px;
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
@@ -115,7 +115,7 @@ $main_font: 'Roboto', sans-serif;
       }
 
       a {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
@@ -150,7 +150,7 @@ $main_font: 'Roboto', sans-serif;
       text-align: center;
 
       h4 {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -160,7 +160,7 @@ $main_font: 'Roboto', sans-serif;
       }
 
       p {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -175,7 +175,7 @@ $main_font: 'Roboto', sans-serif;
 
       h6 {
         margin-bottom: 52px;
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -196,7 +196,7 @@ $main_font: 'Roboto', sans-serif;
       }
 
       a {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 17px;
@@ -210,7 +210,7 @@ $main_font: 'Roboto', sans-serif;
       }
 
       h5 {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         font-size: 17px;
@@ -221,7 +221,7 @@ $main_font: 'Roboto', sans-serif;
       }
 
       p {
-        font-family: 'Roboto', sans-serif;
+        font-family: $main_font;
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
